@@ -1,263 +1,80 @@
-import { useState, useEffect, useRef } from "react";
+cat > /mnt/user-data/outputs/README.md << 'EOF'
+<div align="center">
 
-const TYPING_LINES = [
-  "AI | Media | Data Explorer 🚀",
-  "Journalist × Product Manager × Data Analyst",
-  "Building AI-powered Media Services 🎯",
-  "Let's build something amazing together!",
-];
+<!-- ╔══════════════════════════════════════╗ -->
+<!--           CAPSULE RENDER HEADER        -->
+<!-- ╚══════════════════════════════════════╝ -->
 
-const SKILLS_TECH = [
-  { name: "🐍 Python", pct: 80, grad: "linear-gradient(90deg,#3b82f6,#22d3ee)" },
-  { name: "📊 Data Analysis (Pandas / SQL)", pct: 72, grad: "linear-gradient(90deg,#7e22ce,#c084fc)" },
-  { name: "✨ Generative AI (Gemini / Imagen)", pct: 75, grad: "linear-gradient(90deg,#60a5fa,#7dd3fc)" },
-  { name: "🔥 Flask / Backend", pct: 65, grad: "linear-gradient(90deg,#6b7280,#9ca3af)" },
-  { name: "🗄️ PostgreSQL / Supabase", pct: 68, grad: "linear-gradient(90deg,#1d4ed8,#60a5fa)" },
-];
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24,30&height=200&section=header&text=suhyun's%20Github&fontSize=48&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=AI%20%7C%20Media%20%7C%20Data&descSize=18&descAlignY=60&descAlign=50" width="100%"/>
 
-const SKILLS_DOMAIN = [
-  { name: "📰 News Writing & Journalism", pct: 90, grad: "linear-gradient(90deg,#f43f5e,#f472b6)" },
-  { name: "📋 Service Planning & Strategy", pct: 82, grad: "linear-gradient(90deg,#7c3aed,#c084fc)" },
-  { name: "🚀 Product Management (PM)", pct: 78, grad: "linear-gradient(90deg,#4f46e5,#60a5fa)" },
-];
+<!-- ╔══════════════════════════════════════╗ -->
+<!--           TYPING SVG                   -->
+<!-- ╚══════════════════════════════════════╝ -->
 
-const SNS = [
-  { icon: "🐱", label: "GitHub",    bg: "#24292e", border: "#555" },
-  { icon: "✍️", label: "Velog",     bg: "#20c997" },
-  { icon: "📝", label: "Portfolio", bg: "#000",    border: "#555" },
-  { icon: "📧", label: "Email",     bg: "#EA4335" },
-  { icon: "💼", label: "LinkedIn",  bg: "#0077B5" },
-];
+<br/>
 
-const TOOL_GROUPS = [
-  {
-    label: "🤖 AI Assistants",
-    badges: [
-      { text: "Claude",       bg: "#CC785C", icon: "🧠" },
-      { text: "Perplexity",   bg: "#1DB9C3", icon: "🔍" },
-      { text: "NotebookLM",   bg: "#4285F4", icon: "📓" },
-    ],
-  },
-  {
-    label: "🎨 AI Creative Tools",
-    badges: [
-      { text: "Suno",        bg: "#7C3AED", icon: "🎵" },
-      { text: "CapCut",      bg: "#000",    border: "#555", icon: "🎬" },
-      { text: "ElevenLabs",  bg: "#1A1A2E", border: "#555", icon: "🎙️" },
-    ],
-  },
-  {
-    label: "💻 Dev Tools",
-    badges: [
-      { text: "VSCode",          bg: "#007ACC", icon: "💙" },
-      { text: "Jupyter Notebook",bg: "#F37726", icon: "📔" },
-      { text: "N8N",             bg: "#EA4B71", icon: "⚡" },
-      { text: "브루 (Brew)",     bg: "#FBB040", dark: true, icon: "🍺" },
-    ],
-  },
-  {
-    label: "📊 Data & Analysis",
-    badges: [
-      { text: "Excel + SQL함수", bg: "#217346", icon: "📈" },
-      { text: "Python",          bg: "#3776AB", icon: "🐍" },
-      { text: "Pandas",          bg: "#150458", icon: "🐼" },
-      { text: "PostgreSQL",      bg: "#336791", icon: "🐘" },
-    ],
-  },
-  {
-    label: "🔧 Backend & Infra",
-    badges: [
-      { text: "Flask",    bg: "#333",    icon: "🔥" },
-      { text: "Supabase", bg: "#3ECF8E", dark: true, icon: "⚡" },
-      { text: "Git",      bg: "#F05032", icon: "🔴" },
-      { text: "Notion",   bg: "#000",    border: "#555", icon: "📝" },
-    ],
-  },
-];
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=AI+%7C+Media+%7C+Data+Explorer+%F0%9F%9A%80;Journalist+%C3%97+Product+Manager+%C3%97+Data+Analyst;Building+AI-powered+Media+Services+%F0%9F%8E%AF;Let%27s+build+something+amazing+together!)](https://git.io/typing-svg)
 
-function TypingText() {
-  const [text, setText] = useState("");
-  const [lineIdx, setLineIdx] = useState(0);
-  const [deleting, setDeleting] = useState(false);
-  useEffect(() => {
-    const cur = TYPING_LINES[lineIdx];
-    const timeout = setTimeout(() => {
-      if (!deleting) {
-        setText(cur.slice(0, text.length + 1));
-        if (text.length + 1 === cur.length) setTimeout(() => setDeleting(true), 1600);
-      } else {
-        setText(cur.slice(0, text.length - 1));
-        if (text.length - 1 === 0) {
-          setDeleting(false);
-          setLineIdx((i) => (i + 1) % TYPING_LINES.length);
-        }
-      }
-    }, deleting ? 40 : 70);
-    return () => clearTimeout(timeout);
-  }, [text, deleting, lineIdx]);
+<br/>
 
-  return (
-    <span style={{ fontFamily: "monospace", color: "#a78bfa", fontWeight: 600, fontSize: "1.05rem" }}>
-      {text}
-      <span style={{ borderRight: "2px solid #a78bfa", animation: "blink 0.75s step-end infinite", marginLeft: 1 }} />
-    </span>
-  );
+---
+
+## 🙋‍♀️ About Me
+
+```python
+suhyun = {
+    "role"     : ["Journalist", "Planner", "Product Manager"],
+    "ai_tools" : ["Claude", "Perplexity", "Suno", "ElevenLabs", "N8N"],
+    "passion"  : "AI × Media Convergence",
+    "goal"     : "AI 시대를 선도하는 미디어 전문가"
 }
+```
 
-function SkillBar({ name, pct, grad, visible }) {
-  return (
-    <div style={{ marginBottom: 14 }}>
-      <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 5 }}>
-        <span style={{ fontSize: "0.85rem", color: "#e6edf3", fontWeight: 600 }}>{name}</span>
-        <span style={{ fontSize: "0.78rem", color: "#8b949e", fontFamily: "monospace" }}>{pct}%</span>
-      </div>
-      <div style={{ width: "100%", height: 10, background: "#21262d", borderRadius: 99, overflow: "hidden" }}>
-        <div style={{
-          height: "100%", borderRadius: 99,
-          background: grad,
-          width: visible ? `${pct}%` : "0%",
-          transition: "width 1.3s cubic-bezier(.4,0,.2,1)",
-        }} />
-      </div>
-    </div>
-  );
-}
+<br/>
 
-function SectionTitle({ children }) {
-  return (
-    <h2 style={{ fontSize: "1.05rem", color: "#e6edf3", margin: "30px 0 14px", borderBottom: "1px solid #21262d", paddingBottom: 8 }}>
-      {children}
-    </h2>
-  );
-}
+---
 
-function BadgeChip({ text, bg, border, dark, icon }) {
-  return (
-    <span style={{
-      display: "inline-flex", alignItems: "center", gap: 5,
-      padding: "6px 13px", borderRadius: 7,
-      background: bg, border: border ? `1px solid ${border}` : "none",
-      color: dark ? "#000" : "#fff",
-      fontSize: "0.78rem", fontWeight: 600,
-    }}>
-      {icon && <span>{icon}</span>}
-      {text}
-    </span>
-  );
-}
+## 📈 Skill Level
 
-export default function GitHubProfile() {
-  const [skillsVisible, setSkillsVisible] = useState(false);
-  const skillsRef = useRef(null);
+| Skill | Level |
+|-------|-------|
+| 📰 News Writing & Journalism | ![90%](https://progress-bar.dev/90/?title=&width=200&color=f43f5e) |
+| 📋 Service Planning | ![82%](https://progress-bar.dev/82/?title=&width=200&color=7c3aed) |
+| 🚀 Product Management | ![78%](https://progress-bar.dev/78/?title=&width=200&color=4f46e5) |
+| 🐍 Python | ![80%](https://progress-bar.dev/80/?title=&width=200&color=3b82f6) |
+| ✨ Generative AI (Gemini) | ![75%](https://progress-bar.dev/75/?title=&width=200&color=60a5fa) |
+| 📊 Data Analysis (Pandas/SQL) | ![72%](https://progress-bar.dev/72/?title=&width=200&color=7e22ce) |
+| 🔥 Flask / Backend | ![65%](https://progress-bar.dev/65/?title=&width=200&color=6b7280) |
+| 🗄️ PostgreSQL / Supabase | ![68%](https://progress-bar.dev/68/?title=&width=200&color=1d4ed8) |
 
-  useEffect(() => {
-    const obs = new IntersectionObserver(
-      ([e]) => { if (e.isIntersecting) setSkillsVisible(true); },
-      { threshold: 0.1 }
-    );
-    if (skillsRef.current) obs.observe(skillsRef.current);
-    return () => obs.disconnect();
-  }, []);
+<br/>
 
-  return (
-    <div style={{ background: "#0d1117", minHeight: "100vh", color: "#c9d1d9", fontFamily: "sans-serif" }}>
-      <style>{`@keyframes blink { 50% { opacity:0 } } .sns-btn { cursor:pointer; transition:all .15s; } .sns-btn:hover { opacity:.82; transform:translateY(-2px); }`}</style>
+---
 
-      {/* HEADER */}
-      <div style={{
-        width: "100%", height: 190,
-        background: "linear-gradient(135deg,#1a1a2e 0%,#16213e 25%,#0f3460 50%,#533483 75%,#e94560 100%)",
-        display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 8,
-        position: "relative", overflow: "hidden",
-      }}>
-        <div style={{ fontFamily: "monospace", fontSize: "2.1rem", fontWeight: 700, color: "#fff", textShadow: "0 2px 12px rgba(0,0,0,0.4)", letterSpacing: 1 }}>
-          suhyun's Github
-        </div>
-        <div style={{ fontSize: "0.9rem", color: "rgba(255,255,255,0.82)", letterSpacing: 4 }}>AI | Media | Data</div>
-        <svg viewBox="0 0 1200 60" style={{ position: "absolute", bottom: -1, left: 0, width: "100%" }} preserveAspectRatio="none">
-          <path d="M0,30 C200,60 400,0 600,30 C800,60 1000,0 1200,30 L1200,60 L0,60 Z" fill="#0d1117" />
-        </svg>
-      </div>
+## 🛠️ Tech & Tool Stack
 
-      <div style={{ maxWidth: 820, margin: "0 auto", padding: "20px 24px 0" }}>
+**🤖 AI Assistants**
 
-        {/* TYPING */}
-        <div style={{ textAlign: "center", margin: "18px 0 26px" }}>
-          <TypingText />
-        </div>
+![Claude](https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)
+![Perplexity](https://img.shields.io/badge/Perplexity-1DB9C3?style=for-the-badge&logo=perplexity&logoColor=white)
+![NotebookLM](https://img.shields.io/badge/NotebookLM-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
-        {/* ABOUT ME */}
-        <SectionTitle>🙋‍♀️ About Me</SectionTitle>
-        <div style={{ background: "#161b22", border: "1px solid #30363d", borderRadius: 10, padding: "16px 20px", fontFamily: "monospace", fontSize: "0.82rem", lineHeight: 2, overflowX: "auto" }}>
-          <span style={{ color: "#ffa657" }}>suhyun</span> <span style={{ color: "#79c0ff" }}>=</span> {"{"}<br />
-          &nbsp;&nbsp;<span style={{ color: "#a5d6ff" }}>"role"</span>&nbsp;&nbsp;&nbsp; : [<span style={{ color: "#ffa657" }}>"Journalist"</span>, <span style={{ color: "#ffa657" }}>"Planner"</span>, <span style={{ color: "#ffa657" }}>"PM"</span>],<br />
-          &nbsp;&nbsp;<span style={{ color: "#a5d6ff" }}>"ai_tools"</span> : [<span style={{ color: "#ffa657" }}>"Claude"</span>, <span style={{ color: "#ffa657" }}>"Perplexity"</span>, <span style={{ color: "#ffa657" }}>"Suno"</span>, <span style={{ color: "#ffa657" }}>"ElevenLabs"</span>, <span style={{ color: "#ffa657" }}>"N8N"</span>],<br />
-          &nbsp;&nbsp;<span style={{ color: "#a5d6ff" }}>"passion"</span> : <span style={{ color: "#ffa657" }}>"AI × Media Convergence"</span>,<br />
-          &nbsp;&nbsp;<span style={{ color: "#a5d6ff" }}>"goal"</span>&nbsp;&nbsp;&nbsp; : <span style={{ color: "#ffa657" }}>"AI 시대를 선도하는 미디어 전문가"</span><br />
-          {"}"}
-        </div>
+**🎨 AI Creative Tools**
 
-        {/* SKILL BARS */}
-        <SectionTitle>📈 Skill Level</SectionTitle>
-        <div ref={skillsRef}>
-          <div style={{ fontSize: "0.75rem", color: "#8b949e", fontWeight: 700, marginBottom: 12, letterSpacing: 1 }}>💻 TECHNICAL</div>
-          {SKILLS_TECH.map((s) => <SkillBar key={s.name} {...s} visible={skillsVisible} />)}
-          <div style={{ fontSize: "0.75rem", color: "#8b949e", fontWeight: 700, margin: "20px 0 12px", letterSpacing: 1 }}>🎯 DOMAIN</div>
-          {SKILLS_DOMAIN.map((s) => <SkillBar key={s.name} {...s} visible={skillsVisible} />)}
-        </div>
+![Suno](https://img.shields.io/badge/Suno-7C3AED?style=for-the-badge&logoColor=white)
+![CapCut](https://img.shields.io/badge/CapCut-000000?style=for-the-badge&logoColor=white)
+![ElevenLabs](https://img.shields.io/badge/ElevenLabs-1A1A2E?style=for-the-badge&logoColor=white)
 
-        {/* TOOL STACK */}
-        <SectionTitle>🛠️ Tech & Tool Stack</SectionTitle>
-        {TOOL_GROUPS.map((g) => (
-          <div key={g.label} style={{ marginBottom: 18 }}>
-            <div style={{ fontSize: "0.75rem", color: "#8b949e", fontWeight: 700, marginBottom: 8, letterSpacing: 0.5 }}>{g.label}</div>
-            <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
-              {g.badges.map((b) => <BadgeChip key={b.text} {...b} />)}
-            </div>
-          </div>
-        ))}
+**💻 Dev Tools**
 
-        {/* SNS */}
-        <SectionTitle>📬 Contact & Links</SectionTitle>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 10, marginBottom: 8 }}>
-          {SNS.map((s) => (
-            <button key={s.label} className="sns-btn" style={{
-              display: "inline-flex", alignItems: "center", gap: 7,
-              padding: "9px 18px", borderRadius: 8,
-              background: s.bg, border: s.border ? `1px solid ${s.border}` : "none",
-              color: "#fff", fontWeight: 600, fontSize: "0.85rem",
-            }}>
-              {s.icon} {s.label}
-            </button>
-          ))}
-        </div>
+![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37726?style=for-the-badge&logo=jupyter&logoColor=white)
+![N8N](https://img.shields.io/badge/N8N-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![Homebrew](https://img.shields.io/badge/Brew-FBB040?style=for-the-badge&logo=homebrew&logoColor=black)
 
-        {/* PROJECT */}
-        <SectionTitle>🌟 Featured Project</SectionTitle>
-        <div style={{ background: "#161b22", border: "1px solid #30363d", borderRadius: 12, padding: 22 }}>
-          <div style={{ color: "#e6edf3", fontWeight: 700, fontSize: "1rem", marginBottom: 8 }}>📰 AI 자동 카드뉴스 생성 서비스</div>
-          <div style={{ color: "#8b949e", fontSize: "0.86rem", lineHeight: 1.7, marginBottom: 14 }}>
-            Google Gemini & Imagen API를 활용한 뉴스 자동 카드뉴스 변환 서비스
-          </div>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginBottom: 12 }}>
-            {[["Flask","#333"],["Gemini API","#4285F4"],["Supabase","#3ECF8E"],["6인 팀프로젝트","#FF6B6B"]].map(([t,bg]) => (
-              <span key={t} style={{ padding: "4px 10px", borderRadius: 4, background: bg, color: bg === "#3ECF8E" ? "#000" : "#fff", fontSize: "0.74rem", fontWeight: 600 }}>{t}</span>
-            ))}
-          </div>
-          <div style={{ color: "#3fb950", fontSize: "0.84rem" }}>
-            ✅ 뉴스 트렌드 대시보드 &nbsp;|&nbsp; ✅ 이미지 자동 생성 &nbsp;|&nbsp; ✅ 기획~배포 전과정
-          </div>
-        </div>
+**📊 Data & Analysis**
 
-        <div style={{ height: 44 }} />
-      </div>
-
-      {/* FOOTER */}
-      <div style={{ width: "100%", height: 100, background: "linear-gradient(135deg,#e94560 0%,#533483 35%,#0f3460 70%,#1a1a2e 100%)", position: "relative", overflow: "hidden" }}>
-        <svg viewBox="0 0 1200 60" style={{ position: "absolute", top: -1, left: 0, width: "100%" }} preserveAspectRatio="none">
-          <path d="M0,30 C200,0 400,60 600,30 C800,0 1000,60 1200,30 L1200,0 L0,0 Z" fill="#0d1117" />
-        </svg>
-      </div>
-    </div>
-  );
-}
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel+SQL-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
