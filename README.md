@@ -1,4 +1,3 @@
-
 <div align="center">
 
 <!-- ╔══════════════════════════════════════╗ -->
@@ -13,7 +12,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=AI+%7C+Media+%7C+Data+Explorer+%F0%9F%9A%80;+%C3%97Data Literacy+Product+Manager+%C3%97+Data+Analyst;Building+AI-powered+Media+Services+%F0%9F%8E%AF;Let%27s+build+something+amazing+together!)](https://git.io/typing-svg)
+[![Typing SVG](https://demolab.com!)](https://git.io/typing-svg)
 
 <br/>
 
@@ -37,19 +36,30 @@ suhyun = {
 ## 📈 Skill Level
 
 | Skill | Level |
-|-------|-------|
-| 📰 News Writing & Journalism | ![90%](https://progress-bar.dev/90/?title=&width=200&color=f43f5e) |
-| 📋 Service Planning | ![82%](https://progress-bar.dev/82/?title=&width=200&color=7c3aed) |
-| 🚀 Product Management | ![78%](https://progress-bar.dev/78/?title=&width=200&color=4f46e5) |
-| 🐍 Python | ![80%](https://progress-bar.dev/80/?title=&width=200&color=3b82f6) |
-| ✨ Generative AI (Gemini) | ![75%](https://progress-bar.dev/75/?title=&width=200&color=60a5fa) |
-| 📊 Data Analysis (Pandas/SQL) | ![72%](https://progress-bar.dev/72/?title=&width=200&color=7e22ce) |
-| 🔥 Flask / Backend | ![65%](https://progress-bar.dev/65/?title=&width=200&color=6b7280) |
-| 🗄️ PostgreSQL / Supabase | ![68%](https://progress-bar.dev/68/?title=&width=200&color=1d4ed8) |
+|---|---|
+| 📰 News Writing & Journalism | ![95%](https://progress-bar.dev) |
+| 📋 Service Planning | ![92%](https://progress-bar.dev) |
+| 🚀 Product Management | ![90%](https://progress-bar.dev) |
+| 🐍 Python | ![95%](https://progress-bar.dev) |
+| ✨ Google Antigravity AI (Gemini) | ![95%](https://progress-bar.dev) |
+| 📊 Data Analysis (Pandas/SQL) | ![98%](https://progress-bar.dev) |
+| 🔥 Flask / Backend | ![85%](https://progress-bar.dev) |
+| 🗄️ PostgreSQL / Supabase | ![85%](https://progress-bar.dev) |
 
 <br/>
 
----
+
+## 📈 Skill Level
+
+| Skill | Level |
+|-------|-------|
+| 📰 News Writing & Journalism | ![95%](https://progress-bar.dev/90/?title=&width=200&color=f43f5e) |
+| 📋 Service Planning | ![92%](https://progress-bar.dev/82/?title=&width=200&color=7c3aed) |
+| 🚀 Product Management | ![90%](https://progress-bar.dev/78/?title=&width=200&color=4f46e5) |
+| 🐍 Python | ![95%](https://progress-bar.dev/80/?title=&width=200&color=3b82f6) |
+| ✨ Google Antigravity AI (Gemini) | ![95%](https://progress-bar.dev/75/?title=&width=200&color=60a5fa) |
+| 📊 Data Analysis (Pandas/SQL) | ![98%](https://progress-bar.dev/72/?title=&width=200&color=7e22ce) |
+
 
 ## 🛠️ Tech & Tool Stack
 
