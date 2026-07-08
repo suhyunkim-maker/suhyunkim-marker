@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <!-- ╔══════════════════════════════════════╗ -->
@@ -12,7 +13,9 @@
 
 <br/>
 
-[![Typing SVG](https://demolab.com!)](https://git.io/typing-svg)
+<a href="https://git.io/typing-svg">
+  <img src="https://demolab.com" alt="Typing SVG" />
+</a>
 
 <br/>
 
@@ -49,48 +52,7 @@ suhyun = {
 <br/>
 </div>
 
-
-## 🙋‍♀️ About Me
-
-```python
-suhyun = {
-    "role"     : ["Data Literacy", "Planner", "Augmented Analytics"],
-    "ai_tools" : ["Claude", "Ai studio", "colab", "Google Antigravity", "N8N"],
-    "passion"  : "AI × Media Convergence",
-    "goal"     : "AI시대를 함께하는 AX 멀티플레이어"
-}
-```
-
-<br/>
-
 ---
-
-## 📈 Skill Level
-
-| Skill | Level |
-|---|---|
-| 📰 News Writing & Journalism | ![95%](https://progress-bar.dev) |
-| 📋 Service Planning | ![92%](https://progress-bar.dev) |
-| 🚀 Product Management | ![90%](https://progress-bar.dev) |
-| 🐍 Python | ![95%](https://progress-bar.dev) |
-| ✨ Google Antigravity AI (Gemini) | ![95%](https://progress-bar.dev) |
-| 📊 Data Analysis (Pandas/SQL) | ![98%](https://progress-bar.dev) |
-| 🔥 Flask / Backend | ![85%](https://progress-bar.dev) |
-| 🗄️ PostgreSQL / Supabase | ![85%](https://progress-bar.dev) |
-
-<br/>
-
-
-## 📈 Skill Level
-
-| Skill | Level |
-|-------|-------|
-| 📰 News Writing & Journalism | ![95%](https://progress-bar.dev/90/?title=&width=200&color=f43f5e) |
-| 📋 Service Planning | ![92%](https://progress-bar.dev/82/?title=&width=200&color=7c3aed) |
-| 🚀 Product Management | ![90%](https://progress-bar.dev/78/?title=&width=200&color=4f46e5) |
-| 🐍 Python | ![95%](https://progress-bar.dev/80/?title=&width=200&color=3b82f6) |
-| ✨ Google Antigravity AI (Gemini) | ![95%](https://progress-bar.dev/75/?title=&width=200&color=60a5fa) |
-| 📊 Data Analysis (Pandas/SQL) | ![98%](https://progress-bar.dev/72/?title=&width=200&color=7e22ce) |
 
 
 ## 🛠️ Tech & Tool Stack
