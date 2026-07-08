@@ -1,6 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=8A2BE2&height=200&section=header&text=김수현&fontSize=70&fontColor=ffffff&animation=fadeIn)
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=8A2BE2&width=700&lines=Data+Literacy+%C3%97+Augmented+%C3%97+Analytics+Convergence)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=8A2BE2&center=true&width=700&lines=Data+Literacy+%C3%97+Augmented;%C3%97+Analytics+Convergence)
 
 ## 🙋‍♀️ About Me
 
