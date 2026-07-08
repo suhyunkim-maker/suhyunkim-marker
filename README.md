@@ -13,7 +13,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=AI+%7C+Media+%7C+Data+Explorer+%F0%9F%9A%80;Journalist+%C3%97+Product+Manager+%C3%97+Data+Analyst;Building+AI-powered+Media+Services+%F0%9F%8E%AF;Let%27s+build+something+amazing+together!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=AI+%7C+Media+%7C+Data+Explorer+%F0%9F%9A%80;+%C3%97+Product+Manager+%C3%97+Data+Analyst;Building+AI-powered+Media+Services+%F0%9F%8E%AF;Let%27s+build+something+amazing+together!)](https://git.io/typing-svg)
 
 <br/>
 
@@ -26,7 +26,7 @@ suhyun = {
     "role"     : ["Data Literacy", "Planner", "Augmented Analytics"],
     "ai_tools" : ["Claude", "Perplexity", "Suno", "ElevenLabs", "N8N"],
     "passion"  : "AI × Media Convergence",
-    "goal"     : "AI 시대를 선도하는  AX 플레이어"
+    "goal"     : "AI 시대를 함께하는 AX 멀티플레이어"
 }
 ```
 
