@@ -46,7 +46,7 @@ suhyun = {
 ![Suno](https://img.shields.io/badge/Suno-7C3AED?style=for-the-badge&logoColor=white)
 ![CapCut](https://img.shields.io/badge/CapCut-000000?style=for-the-badge&logoColor=white)
 ![ElevenLabs](https://img.shields.io/badge/ElevenLabs-1A1A2E?style=for-the-badge&logoColor=white)
-![Homebrew](https://img.shields.io/badge/Brew-FBB040?style=for-the-badge&logo=homebrew&logoColor=black)
+![Brew](https://img.shields.io/badge/Brew-FBB040?style=for-the-badge&logo=Brew&logoColor=black)
 
 
 **💻 Dev Tools**
