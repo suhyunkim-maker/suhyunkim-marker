@@ -1,4 +1,4 @@
-
+6
 ## 🙋‍♀️ About Me
 
 ```python
@@ -52,7 +52,6 @@ suhyun = {
 ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37726?style=for-the-badge&logo=jupyter&logoColor=white)
 ![N8N](https://img.shields.io/badge/Python-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-![Homebrew](https://img.shields.io/badge/Brew-FBB040?style=for-the-badge&logo=homebrew&logoColor=black)
 
 **📊 Data & Analysis**
 
