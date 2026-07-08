@@ -1,29 +1,4 @@
 
-<div align="center">
-
-<!-- ╔══════════════════════════════════════╗ -->
-<!--           CAPSULE RENDER HEADER        -->
-<!-- ╚══════════════════════════════════════╝ -->
-
-<img src="https://vercel.app" width="100%"/>
-
-<!-- ╔══════════════════════════════════════╗ -->
-<!--           TYPING SVG                   -->
-<!-- ╚══════════════════════════════════════╝ -->
-
-<br/>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://demolab.com" alt="Typing SVG" />
-</a>
-
-<br/>
-
----
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Ax+Data++Literacy+multi+q
-player)](https://git.io/typing-svg)
-
 ## 🙋‍♀️ About Me
 
 ```python
