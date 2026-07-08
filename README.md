@@ -1,10 +1,11 @@
+
 <div align="center">
 
 <!-- ╔══════════════════════════════════════╗ -->
 <!--           CAPSULE RENDER HEADER        -->
 <!-- ╚══════════════════════════════════════╝ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24,30&height=200&section=header&text=suhyun's%20Github&fontSize=48&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=AI%20%7C%20Media%20%7C%20Data&descSize=18&descAlignY=60&descAlign=50" width="100%"/>
+<img src="https://vercel.app" width="100%"/>
 
 <!-- ╔══════════════════════════════════════╗ -->
 <!--           TYPING SVG                   -->
@@ -17,6 +18,38 @@
 <br/>
 
 ---
+
+## 🙋‍♀️ About Me
+
+```python
+suhyun = {
+    "role"     : ["Data Literacy", "Planner", "Augmented Analytics"],
+    "ai_tools" : ["Claude", "Ai studio", "colab", "Google Antigravity", "N8N"],
+    "passion"  : "AI × Media Convergence",
+    "goal"     : "AI시대를 함께하는 AX 멀티플레이어"
+}
+```
+
+<br/>
+
+---
+
+## 📈 Skill Level
+
+| Skill | Level |
+|---|---|
+| 📰 News Writing & Journalism | ![95%](https://progress-bar.dev) |
+| 📋 Service Planning | ![92%](https://progress-bar.dev) |
+| 🚀 Product Management | ![90%](https://progress-bar.dev) |
+| 🐍 Python | ![95%](https://progress-bar.dev) |
+| ✨ Google Antigravity AI (Gemini) | ![95%](https://progress-bar.dev) |
+| 📊 Data Analysis (Pandas/SQL) | ![98%](https://progress-bar.dev) |
+| 🔥 Flask / Backend | ![85%](https://progress-bar.dev) |
+| 🗄️ PostgreSQL / Supabase | ![85%](https://progress-bar.dev) |
+
+<br/>
+</div>
+
 
 ## 🙋‍♀️ About Me
 
