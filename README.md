@@ -1,4 +1,4 @@
-<img src="https://vercel.app" alt="Header" />
+![header](https://capsule-render.vercel.app/api?type=waving&color=8A2BE2&height=200&section=header&text=김수현&fontSize=70&fontColor=ffffff&animation=fadeIn)
 
 ## 🙋‍♀️ About Me
 
