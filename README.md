@@ -24,7 +24,7 @@
 ```python
 suhyun = {
     "role"     : ["Data Literacy", "Planner", "Augmented Analytics"],
-    "ai_tools" : ["Claude", "Perplexity", "Suno", "ElevenLabs", "N8N"],
+    "ai_tools" : ["Claude", "Ai studio", "colab", "Google Antigravity", "N8N"],
     "passion"  : "AI × Media Convergence",
     "goal"     : "AI시대를 함께하는 AX 멀티플레이어"
 }
