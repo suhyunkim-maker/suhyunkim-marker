@@ -23,10 +23,10 @@
 
 ```python
 suhyun = {
-    "role"     : ["Journalist", "Planner", "Product Manager"],
+    "role"     : ["Data Literacy", "Planner", "Augmented Analytics"],
     "ai_tools" : ["Claude", "Perplexity", "Suno", "ElevenLabs", "N8N"],
     "passion"  : "AI × Media Convergence",
-    "goal"     : "AI 시대를 선도하는 미디어 전문가"
+    "goal"     : "AI 시대를 선도하는  AX 플레이어"
 }
 ```
 
