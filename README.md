@@ -7,9 +7,9 @@
 ```python
 suhyun = {
     "role"     : ["Data Literacy", "Planner", "Augmented Analytics"],
-    "ai_tools" : ["Claude", "Ai studio", "colab", "Google Antigravity", "N8N"],
+    "ai_tools" : ["Pandas", "Ai studio", "Python", "Antigravity", "N8N"],
     "passion"  : "AI × Media Convergence",
-    "goal"     : "AI시대를 함께하는 AX 멀티플레이어"
+    "goal"     : "기획하는 AX 멀티플레이어"
 }
 ```
 
@@ -21,14 +21,14 @@ suhyun = {
 
 | Skill | Level |
 |---|---|
-| 📰 News Writing & Journalism | ![95%](https://progress-bar.dev) |
-| 📋 Service Planning | ![92%](https://progress-bar.dev) |
-| 🚀 Product Management | ![90%](https://progress-bar.dev) |
-| 🐍 Python | ![95%](https://progress-bar.dev) |
-| ✨ Google Antigravity AI (Gemini) | ![95%](https://progress-bar.dev) |
-| 📊 Data Analysis (Pandas/SQL) | ![98%](https://progress-bar.dev) |
-| 🔥 Flask / Backend | ![85%](https://progress-bar.dev) |
-| 🗄️ PostgreSQL / Supabase | ![85%](https://progress-bar.dev) |
+| 📰 News Writing & Journalism | ![95%] |
+| 📋 Service Planning | ![92%] |
+| 🚀 Product Management | ![90%] |
+| 🐍 Python | ![95%]|
+| ✨ Google Antigravity AI (Gemini) | ![95%]|
+| 📊 Data Analysis (Pandas/SQL) | ![98%] |
+| 🔥 Flask / Backend | ![85%]|
+| 🗄️ PostgreSQL / Supabase | ![85%]|
 
 <br/>
 </div>
