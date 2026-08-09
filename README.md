@@ -21,14 +21,14 @@ suhyun = {
 
 | Skill | Level |
 |---|---|
-| 📰 News Writing & Calums| [95%] |
-| 📋 Service Planning | [92%] |
-| 🚀 Product Management | [90%] |
+| 📰 News Writing & Calums| [99%] |
+| 📋 Service Planning | [95%] |
+| 🚀 Product Management | [95%] |
 | 🐍 Python | Pandas [95%]|
-| ✨ Google Antigravity AI (Gemini) | [95%]|
+| ✨ Google Antigravity AI (Gemini) | [99%]|
 | 📊 Data Analysis (Pandas/SQL) | [98%] |
-| 🔥 PPT / CapCut| [95%]|
-| 🗄️ Excel / Supabase | [92%]|
+| 🔥 PPT / CapCut| [99%]|
+| 🗄️ Excel / Notion | [99%]|
 
 <br/>
 </div>
