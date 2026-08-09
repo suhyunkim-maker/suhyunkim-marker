@@ -6,10 +6,10 @@
 
 ```python
 suhyun = {
-    "role"     : ["Data Literacy", "Planner", "Augmented Analytics"],
-    "ai_tools" : ["Pandas", "Ai studio", "Python", "Antigravity", "N8N"],
+    "role"     : ["EDUCATION Literacy", "Planner", "Augmented Analytics"],
+    "Ai_tools" : ["Excel", "Ai studio", "PPT", "Antigravity", "N8N"],
     "passion"  : "AI × Media Convergence",
-    "goal"     : "기획하는 AX 멀티플레이어"
+    "goal"     : "교육 칼럼 기획 AX 멀티플레이어"
 }
 ```
 
@@ -21,14 +21,14 @@ suhyun = {
 
 | Skill | Level |
 |---|---|
-| 📰 News Writing & Journalism | ![95%] |
-| 📋 Service Planning | ![92%] |
-| 🚀 Product Management | ![90%] |
-| 🐍 Python | ![95%]|
-| ✨ Google Antigravity AI (Gemini) | ![95%]|
-| 📊 Data Analysis (Pandas/SQL) | ![98%] |
-| 🔥 Flask / Backend | ![85%]|
-| 🗄️ PostgreSQL / Supabase | ![85%]|
+| 📰 News Writing & Calums| [95%] |
+| 📋 Service Planning | [92%] |
+| 🚀 Product Management | [90%] |
+| 🐍 Python | Pandas [95%]|
+| ✨ Google Antigravity AI (Gemini) | [95%]|
+| 📊 Data Analysis (Pandas/SQL) | [98%] |
+| 🔥 PPT / CapCut| [95%]|
+| 🗄️ Excel / Supabase | [92%]|
 
 <br/>
 </div>
